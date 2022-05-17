@@ -28,3 +28,14 @@ git add <files you want>
 git commit -m 'message'
 git push
 ```
+
+# Models
+
+- HGraph: https://github.com/wengong-jin/hgraph2graph.git
+- Junction Tree: https://github.com/wengong-jin/icml18-jtnn.git
+- Mol Cycle Gan: https://github.com/ardigen/mol-cycle-gan.git
+- Chemical VAE: https://github.com/aspuru-guzik-group/chemical_vae.git
+- Conditional variational auto encode for denote molecular design: https://github.com/jaechanglim/CVAE.git
+- Keras version of Molecular Generation vac: 
+  - https://github.com/keras-team/keras-io/blob/master/examples/generative/molecule_generation.py
+  - https://github.com/maxhodak/keras-molecules.git
