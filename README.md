@@ -13,6 +13,12 @@ Run `conda env create -f [yaml_file_name]` and it will create a conda environmen
 2. Run `git config --global credential.helper store` to store the token.
 3. Clone the repository
 
+# Jupyter setup
+To access Jupyter on your local machine:
+1. Run jupyter notebook on Vela: `CUDA_VISBILE_DEVICES=<GPU-ID> jupyter notebook --port 8888 --ip 0.0.0.0 --no-browser`
+2. On your local terminal: `ssh -NL 8888:localhost:8888 <username>@<VELA-IP>`
+3. Use the localhost URL you got on Vela on your local browser
+
 # Contributing
 ```
 git checkout -b <branchname>
