@@ -19,6 +19,8 @@ To access Jupyter on your local machine:
 2. On your local terminal: `ssh -NL 8888:localhost:8888 <username>@<VELA-IP>`
 3. Use the localhost URL you got on Vela on your local browser
 
+Note: Once you enter the password for Vela on your local, the terminal will stick there (indicating port forwarding is active). To stop once you’re done, hit CTRL+C on local terminal to stop port forwarding.
+
 # Contributing
 ```
 git checkout -b <branchname>
