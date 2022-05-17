@@ -1,0 +1,10 @@
+name: chemvae
+channels:
+  - defaults
+  - rdkit 
+  - conda-forge
+dependencies:
+  - python=3.5
+  - keras=2.0.6
+  - tensorflow-gpu=1.9.0
+  - rdkit==2018.03.4

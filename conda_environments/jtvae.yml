@@ -1,0 +1,9 @@
+name: jtvae
+channels:
+  - defaults
+  - rdkit
+dependencies:
+  - python=2.7
+  - pytorch==1.0.1=cuda100py27he554f03_0
+  - rdkit==2017.09.1=py27_1
+  - scipy
