@@ -8,3 +8,4 @@ dependencies:
   - keras=2.0.6
   - tensorflow-gpu=1.9.0
   - rdkit==2018.03.4
+  - wandb
