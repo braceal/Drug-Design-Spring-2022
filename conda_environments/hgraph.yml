@@ -2,9 +2,11 @@ name: hgraph
 channels:
   - defaults
   - rdkit
+  - conda-forge
 dependencies:
   - python=3.6
   - pytorch=1.0.1
   - rdkit=2019.03.1.0
   - tqdm
   - networkx
+  - wandb

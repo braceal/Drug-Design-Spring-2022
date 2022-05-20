@@ -1,8 +1,10 @@
 name: mol-cycle-gan
 channels:
   - defaults
+  - conda-forge
 dependencies:
   - python=2.7
   - tensorflow-gpu==1.9.0
   - keras==2.1.2=py27_0
   - pandas==0.24.2
+  - wandb
