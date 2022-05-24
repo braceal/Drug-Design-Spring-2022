@@ -41,12 +41,12 @@ git push
   - https://github.com/maxhodak/keras-molecules.git
 
 
-# Current Status (after joint coding session on Thu, May 19th)
+## Status after th Coding session on Thu, May 19th
 - Identified speed-ups for HGraph
 For Mol Cycle Gan etc., the Python 3 version of Junction tree might come in handy
-- Junction Tree (Py 3.6): https://github.com/Bibyutatsu/FastJTNNpy3
-Moreover, the [Blog article](https://blog.bayeslabs.co/2019/06/27/Generating-molecules-using-Junction-Tree-VAE-using-PyTorch.html) provides a solid introduction
-- Setting up the keras-bases Mol Cycle GAN in PyTorch (lightning) was considered 
+- Junction Tree (Py 3.6; NOT from the author of HGraph or the JTVAE py2 repo): https://github.com/Bibyutatsu/FastJTNNpy3
+Moreover, the [Blog article](https://blog.bayeslabs.co/2019/06/27/Generating-molecules-using-Junction-Tree-VAE-using-PyTorch.html) provides a solid introduction -> Carlo 
+- Later, setting up the keras-bases Mol Cycle GAN in PyTorch (lightning) might be considered 
 
 
 ## ChemVAE notes 
