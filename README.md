@@ -54,7 +54,7 @@ Moreover, the [Blog article](https://blog.bayeslabs.co/2019/06/27/Generating-mol
   >>> from collections import Counter
   >>> import pandas as pd 
   >>> import json
-  >>> df = pd.read_csv('CHEMBL.filtered_notags.smi')
+  >>> df = pd.read_csv('CHEMBL.filtered_notags.smi', header = None)
   >>> unique_chars = Counter(''.join(df.iloc[:, 0])) # returns dict 
   >>> json.dump(list(unique_chars.keys()), open('chembl_tokens.json', 'w')) #dumps keys to json file for the unique charachters in smiles
 ```
