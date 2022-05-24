@@ -47,3 +47,14 @@ For Mol Cycle Gan etc., the Python 3 version of Junction tree might come in hand
 - Junction Tree (Py 3.6): https://github.com/Bibyutatsu/FastJTNNpy3
 Moreover, the [Blog article](https://blog.bayeslabs.co/2019/06/27/Generating-molecules-using-Junction-Tree-VAE-using-PyTorch.html) provides a solid introduction
 - Setting up the keras-bases Mol Cycle GAN in PyTorch (lightning) was considered 
+
+
+## ChemVAE notes 
+```python
+  >>> from collections import Counter
+  >>> import pandas as pd 
+  >>> import json
+  >>> df = pd.read_csv('CHEMBL.filtered_notags.smi', header = None)
+  >>> unique_chars = Counter(''.join(df.iloc[:, 0])) # returns dict 
+  >>> json.dump(list(unique_chars.keys()), open('chembl_tokens.json', 'w')) #dumps keys to json file for the unique charachters in smiles
+```
